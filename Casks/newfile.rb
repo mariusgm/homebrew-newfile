@@ -19,6 +19,7 @@ cask "newfile" do
   zap trash: [
     "~/Library/Containers/dev.newfile.NewFile",
     "~/Library/Containers/dev.newfile.NewFile.NewFileExtension",
-    "~/Library/Group Containers/Q7VD7MTRL8.group.dev.newfile.NewFile",
+    "~/Library/Group Containers/group.dev.newfile.NewFile",
+    "~/Library/Group Containers/Q7VD7MTRL8.dev.newfile.NewFile",
   ]
 end
