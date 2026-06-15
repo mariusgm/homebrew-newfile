@@ -1,6 +1,6 @@
 cask "newfile" do
-  version "0.2.0"
-  sha256 "2458aa21a538eb00857f32ca17afa575e61381aaf097f1b3fb3ca3d37b02b8ef"
+  version "0.2.1"
+  sha256 "f555e381ddb97965cf71c3e2e08d554475ad1093a7f841aacd4fd2ce4fb52668"
 
   url "https://github.com/mariusgm/newfile/releases/download/v#{version}/NewFile.dmg"
   name "NewFile"
