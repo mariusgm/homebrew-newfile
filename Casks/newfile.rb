@@ -22,4 +22,10 @@ cask "newfile" do
     "~/Library/Group Containers/group.dev.newfile.NewFile",
     "~/Library/Group Containers/Q7VD7MTRL8.dev.newfile.NewFile",
   ]
+
+  caveats <<~EOS
+    Launch NewFile once to register its Finder extension:
+      open -a NewFile
+    Then enable it in System Settings → General → Login Items & Extensions.
+  EOS
 end
