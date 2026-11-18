@@ -11,6 +11,8 @@ brew install --cask newfile
 
 ## Upgrade
 
+NewFile updates itself from inside the app, so a plain `brew upgrade` skips it. To upgrade through Homebrew, name it:
+
 ```sh
 brew upgrade --cask newfile
 ```

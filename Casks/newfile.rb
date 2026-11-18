@@ -12,6 +12,7 @@ cask "newfile" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: :ventura
 
   app "NewFile.app"
@@ -26,6 +27,9 @@ cask "newfile" do
   caveats <<~EOS
     Launch NewFile once to register its Finder extension:
       open -a NewFile
-    Then enable it in System Settings → General → Login Items & Extensions.
+    Then enable it in System Settings → General → Login Items & Extensions:
+      macOS 27: Extensions → By Category → ⓘ next to File Providers → NewFile
+      macOS 26 and earlier: Added Extensions → NewFile Extension
+    NewFile updates itself; `brew upgrade --cask newfile` also works.
   EOS
 end
